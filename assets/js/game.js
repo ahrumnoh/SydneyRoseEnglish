@@ -47,7 +47,7 @@ let questions = [
         choice2: "listen",
         choice3: "hear",
         choice4: "here",
-        answer: 1,    
+        answer: 3,    
     },
     {
         question: "We went shopping and I ______________ a new pair of jeans.",
@@ -67,7 +67,7 @@ let questions = [
     }
 ]
 
-const SCORE_POINTS = 100
+const SCORE_POINTS = 100    
 const MAX_QUESTIONS = 5
 
 
