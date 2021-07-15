@@ -58,11 +58,11 @@ let questions = [
         answer: 1,    
     },
     {
-        question: "Which sentence is corrent?",
+        question: "Which sentence is correct?",
         choice1: "coffee is drinking everyday.",
         choice2: "The door has been painted yesterday.",
         choice3: "The door broken, three days ago.",
-        choice4: "Is The computer being repaired, now?",
+        choice4: "Is the computer being repaired, now?",
         answer: 4,    
     },
 
