@@ -17,7 +17,7 @@ let availableQuestions = []
 
 //Setup Timer
 
-var time=15;
+var time=60;
 var x=setInterval(function() {
     document.getElementById("timer-count").innerHTML="" + time ;
     time = time-1;
@@ -34,40 +34,51 @@ var x=setInterval(function() {
 
 let questions = [
     {
-        question: "Have you ______________ your lost dog, yet?",
-        choice1: "find",
-        choice2: "finding",
-        choice3: "founded",
-        choice4: "found",
+        question: "Which one is a right sentence grammatically?",
+        choice1: "Where are you come from?",
+        choice2: "Where you are come?",
+        choice3: "Where did you coming?",
+        choice4: "Where do you come from",
         answer: 4,    
     },
     {
-        question: "She spoke too softly. I couldn't ______________ her.",
-        choice1: "heard",
-        choice2: "listen",
-        choice3: "hear",
-        choice4: "here",
+        question: "Which one is correct?",
+        choice1: "I was listening to Jazz when my mother are arriving.",
+        choice2: "I listened to Jazz When my mother come home.",
+        choice3: "I was listening to Jazz when my mother arrived.",
+        choice4: "I was listened to Jaxx when my mother coming home.",
         answer: 3,    
     },
     {
-        question: "We went shopping and I ______________ a new pair of jeans.",
-        choice1: "buying",
-        choice2: "buyed",
-        choice3: "bought",
-        choice4: "boughten",
-        answer: 3,    
+        question: "What do you do?",
+        choice1: "I am a dentist",
+        choice2: "Linda is talking to James",
+        choice3: "What is wrong?",
+        choice4: "Yes, that is right. I am doing homework now",
+        answer: 1,    
     },
     {
-        question: "Did you ______________ well last night?",
-        choice1: "sleeping",
-        choice2: "a sleep",
-        choice3: "sleepy",
-        choice4: "sleep",
+        question: "Which sentence is corrent?",
+        choice1: "coffee is drinking everyday.",
+        choice2: "The door has been painted yesterday.",
+        choice3: "The door broken, three days ago.",
+        choice4: "Is The computer being repaired, now?",
         answer: 4,    
-    }
+    },
+
+    {
+    //new insert, just in case, remove it
+    question: "Which one is correct?",
+    choice1: "i living in Sydney since 2 years ago",
+    choice2: "Miranda have living in Sydney for 2 years ago",
+    choice3: "Peter has lived in Sydney since he was 8 years old",
+    choice4: "Amy has lived in Sydney since he was 3 years ago.",
+    answer: 3,    
+}  
+
 ]
 
-const SCORE_POINTS = 100    
+const SCORE_POINTS = 100
 const MAX_QUESTIONS = 5
 
 

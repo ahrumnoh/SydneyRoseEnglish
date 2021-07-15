@@ -15,7 +15,13 @@
 h1 {
     font-size: 5.4em;
     color: rgb(252, 229, 229);
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 2.5rem;
+    color:lightsteelblue
 }
 
 h2 {
@@ -149,4 +155,3 @@ input::placeholder {
     font-size: 2rem;
     color:rbg(28,26,26);
 }
-
