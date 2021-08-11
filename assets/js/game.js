@@ -35,46 +35,46 @@ var x=setInterval(function() {
 let questions = [
     {
         question: "Which one is a right sentence grammatically?",
-        choice1: "Shelly eating a apple.",
-        choice2: "Paul speak english very well.",
-        choice3: "Where are you going now?",
-        choice4: "What is you do?",
-        answer: 3,    
-    },
-    {
-        question: "Which one is correct?",
-        choice1: "James do met Linda yesterday.",
-        choice2: "How many shoe do you have?",
-        choice3: "I crying a lot last night",
-        choice4: "I saw Jack in this morning.",
+        choice1: "Shelly has a problems.",
+        choice2: "Paul speaking English very well.",
+        choice3: "Have you be Canada, before?",
+        choice4: "What color is your car",
         answer: 4,    
     },
     {
-        question: "Choose a right sentence",
-        choice1: "I have not see Angela",
-        choice2: "Have James gone?",
-        choice3: "I have been here for a year.",
-        choice4: "Miranda have talking to me.",
-        answer: 3,    
+        question: "Which one is correct?",
+        choice1: "James did not meet Brian yesterday.",
+        choice2: "How old you are?",
+        choice3: "I have not finish my homework, yet",
+        choice4: "Are you student?",
+        answer: 1,    
+    },
+    {
+        question: "Choose a right sentence!",
+        choice1: "I staying at home tonight.",
+        choice2: "Jerry will probably be on the beach tomorrow.",
+        choice3: "I does not think Kelly will pass the exam",
+        choice4: "James used to swimming every day.",
+        answer: 2,    
     },
     {
         question: "Which sentence is correct?",
-        choice1: "my key was founding yesterday.",
-        choice2: "my key has been founded yesterday.",
-        choice3: "my key was lost yesterday.",
+        choice1: "Where are you come from?",
+        choice2: "Tom's father are in hospital.",
+        choice3: "My teacher is very kind.",
         choice4: "my key losing yesterday.",
         answer: 3,    
     },
 
     {
     //new insert, just in case, remove it
-    question: "Which one is correct?",
-    choice1: "What is your job?",
-    choice2: "Paul have living in Sydney for 2 years ago",
-    choice3: "My teacher has lived in Sydney since he 8 years old",
-    choice4: "Amy has lived in Sydney since 3 years ago.",
-    answer: 1,    
-}  
+        question: "I have to waering glasses",
+        choice1: "The office cleaned yesterday",
+        choice2: "Are these rooms painting every day?",
+        choice3: "Do you always get up early?",
+        choice4: "Maria speaking four languages.",
+        answer: 3,    
+    }  
 
 ]
 
