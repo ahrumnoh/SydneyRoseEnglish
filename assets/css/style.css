@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 :root {
-    background-color:rgb(7, 53, 15);
+    background-image: url("../image/back.png");
+    background-size: cover;
+    background-position: center;
 }
 
 * {
